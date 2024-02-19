@@ -1,10 +1,10 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="Launch back" type="Application" factoryName="Application">
-    <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+    <option name="MAIN_CLASS_NAME" value="fr.eni.encheres" />
     <module name="projet-java-encheres" />
     <extension name="coverage">
       <pattern>
-        <option name="PATTERN" value="org.example.*" />
+        <option name="PATTERN" value="fr.eni.*" />
         <option name="ENABLED" value="true" />
       </pattern>
     </extension>
