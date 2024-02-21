@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="Launch back" type="Application" factoryName="Application">
-    <option name="MAIN_CLASS_NAME" value="src.main.java" />
+    <option name="MAIN_CLASS_NAME" value="fr.eni.encheres.dal.TestDatabaseConnexion" />
     <module name="projet-java-encheres" />
     <extension name="coverage">
       <pattern>

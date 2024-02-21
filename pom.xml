@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <!-- Identification unique du projet, groupe (nom de famille), artefactId (prénom), version-->
-    <groupId>eni.anthony-agathe</groupId>
-    <artifactId>projet-java-encheres</artifactId>
+    <groupId>fr.eni</groupId>
+    <artifactId>encheres</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -15,20 +15,17 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-    <build>
-        <resources>
-            <resource>
-                <directory>src/main/resources</directory>
-            </resource>
-        </resources>
-    </build>
-
     <dependencies>
         <!-- https://mvnrepository.com/artifact/javax.ws.rs/javax.ws.rs-api -->
         <dependency>
             <groupId>javax.ws.rs</groupId>
             <artifactId>javax.ws.rs-api</artifactId>
             <version>2.1.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.mariadb.jdbc</groupId>
+            <artifactId>mariadb-java-client</artifactId>
+            <version>3.3.2</version>
         </dependency>
     </dependencies>
 
